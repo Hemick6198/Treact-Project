@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav,
+nav,
 ul,
 li,
 a {
@@ -20,12 +20,25 @@ a {
   list-style: none;
 }
 
-.nav,
-ul,
-li,
-a:hover {
+
+.nav__link--styling:hover {
   color: #6415ff;
   transform: translate(1px, 1px);
+  text-decoration: underline 2px;
+  text-underline-offset: 6px;
+  transition: ease all 0.3s;
+}
+
+.links:hover {
+  color: #6415ff;
+  transform: translate(1px, 1px);
+  text-decoration: underline 2px;
+  text-underline-offset: 6px;
+  transition: ease all 0.3s;
+}
+
+.btn {
+  text-decoration: none;
 }
 
 .container {
