@@ -29,15 +29,16 @@ a:hover {
 }
 
 .container {
-  width: 100%;
-  position: relative;
   padding: 96px 0;
+}
+
+section {
+  padding: 0 32px;
 }
 
 .row {
   width: 100%;
   max-width: 1250px;
-  height: 100%;
   margin: 0 auto;
 }
 
@@ -66,6 +67,10 @@ a:hover {
 .btn:hover {
   color: #fff;
   background-color: #4d249e;
+}
+
+.figure__img {
+  width: 100%;
 }
 
 /* NAV */
@@ -117,12 +122,12 @@ li {
 }
 
 .main__image--right {
+  margin-left: 24px;
   width: 60%;
-  transform: scale(0.63);
-  margin: -150px 0 0 -104px;
 }
 
 .main__text h1 {
+  color: rgb(26 32 44);
   font-size: 48px;
   padding-bottom: 40px;
 }
@@ -147,39 +152,40 @@ li {
 }
 
 .input__area {
-  max-width: 448px;
   position: relative;
 }
 
-.main__text input {
-  padding-top: 1.25rem;
-  padding-bottom: 1.2rem;
-  padding-right: 12rem;
+.email__text--area {
+  padding: 22px 0;
+  padding-left: 32px;
+  width: 100%;
+  border-radius: 100px;
+  border: 2px solid #e5e7eb;
   font-size: 16px;
   font-weight: 500;
-  color: rgb(0, 0, 0);
-  border-color: rgb(226, 232, 240);
-  line-height: 24px;
-  width: 100%;
-  padding-left: 2rem;
+  border-color: rgba(40, 66, 150, 0.1);
+  transition: all 300ms ease;
+  color: rgba(45, 68, 144, 0.6);
+}
+
+.email__btn{
+  position: absolute;
+  right: 0;
+  margin: 8px 8px 8px 0;
+  padding: 14px 0;
+  width: 160px;
   border-radius: 9999px;
-  border-width: 2px;
-  border-style: solid;
+  background-color: #6415ff;
+  text-align: center;
+  font-size: 16px;
+  color: #f7fafc;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .main__text input::placeholder {
   color: rgb(203, 208, 214);
   font-weight: 500;
-}
-
-.main__text button {
-  margin: 12px 8px 8px 8px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 10rem;
-  border: none;
-  font-size: 16px;
 }
 
 /* FEATURES */
@@ -685,14 +691,19 @@ TESTIMONIALS
 
 .testimonials {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
 .testimonial__img {
-  width: 20%;
-  scale: 0.5;
-  margin-right: 48px;
+  display: flex;
+  width: 40%;
+  margin: 0 48px 0 -160px;
+}
+
+.person--img {
+  width: 100%;
 }
 
 .testimonial__info {
@@ -767,9 +778,7 @@ TESTIMONIALS
   overflow: hidden;
 }
 
-.person--img {
-  width: 100%;
-}
+
 
 .testimonial__person--info {
   margin-left: 24px;
