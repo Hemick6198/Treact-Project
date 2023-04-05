@@ -11,9 +11,9 @@ html {
 }
 
 .nav,
-ul,
-li,
-a {
+  ul,
+  li,
+  a {
   text-decoration: none;
   color: rgb(36, 62, 99);
   font-size: 14px;
@@ -22,9 +22,9 @@ a {
 }
 
 .nav,
-ul,
-li,
-a:hover {
+  ul,
+  li,
+  a:hover {
   color: #6415ff;
 }
 
@@ -54,7 +54,6 @@ a:hover {
 }
 
 .btn {
-  /* margin:8px 8px 8px 8px; */
   padding: 12px 30px;
   background-color: #6415ff;
   border: none;
@@ -69,7 +68,9 @@ a:hover {
   background-color: #4d249e;
 }
 
+
 /* NAV */
+
 
 .nav {
   display: flex;
@@ -94,8 +95,8 @@ a:hover {
 }
 
 .nav,
-ul,
-li {
+  ul,
+  li {
   letter-spacing: 0.025em;
   font-weight: 600;
   color: #242424;
@@ -110,7 +111,9 @@ li {
   font-size: 14px;
 }
 
+
 /* MAIN */
+
 
 .main__text {
   width: 40%;
@@ -183,7 +186,9 @@ li {
   font-size: 16px;
 }
 
+
 /* FEATURES */
+
 
 .features {
   position: relative;
@@ -256,7 +261,9 @@ li {
   padding-bottom: 24px;
 }
 
+
 /* QUALITY WORK SECTION */
+
 
 .quality-work {
     display: flex;
@@ -311,6 +318,7 @@ li {
 
 /* STEPS SECTION */
 
+
 .steps {
     display: flex;
     justify-content: space-between;
@@ -336,7 +344,6 @@ li {
 
 .steps__info h1 {
     text-align: start;
-    /* padding-top: 48px; */
     font-size: 18px;
     font-weight: 600;
     font-stretch: wider;
@@ -367,7 +374,6 @@ li {
 .steps__info li {
     list-style-type: none;
     display: flex;
-    /* margin-top: 32px; */
 }
 
 .steps__info p {
@@ -385,7 +391,9 @@ li {
     color: #cbd5e0;
 }
 
+
 /* VALUES  */
+
 
 .values {
   display: flex;
@@ -498,7 +506,9 @@ svg {
   padding-top: 32px;
 }
 
+
 /* PRICING */
+
 
 .pricing__description {
   text-align: center;
