@@ -31,7 +31,6 @@ a {
 
 .links:hover {
   color: #6415ff;
-  transform: translate(1px, 1px);
   text-decoration: underline 2px;
   text-underline-offset: 6px;
   transition: ease all 0.3s;
