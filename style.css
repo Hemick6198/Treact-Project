@@ -538,28 +538,28 @@ svg {
 .pricing__plans {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  position: relative;
 }
 
 .pricing__plan {
-  padding: 24px;
   width: calc(100% / 3);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px 0px;
   position: relative;
-  margin-top: 64px;
-  margin-left: -40px;
-  max-width: 24rem;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  overflow: hidden;
-  background-color: #fff;
-  z-index: 100;
+  margin: 14px;
+  width: 370px;
+  z-index: 1;
+  background-color: white;
 }
 
-.pricing__highlight {
+.pricing__plan:nth-child(2) {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.personal__highlight {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -570,78 +570,103 @@ svg {
   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.enterprise__highlight {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 .top__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  line-height: 1.625;
+  padding: 28px 0 32px 0;
 }
 
 .top__card h2 {
   font-size: 20px;
-  color: #242424;
   font-weight: 700;
 }
 
 .top__card h3 {
-  color: #242424;
   font-size: 48px;
-  margin: 4px 0;
+  margin: 16px 0;
   font-weight: 700;
 }
 
 .top__card h4 {
-  color: #A0AEC0;
   font-size: 16px;
   font-weight: 700px;
   letter-spacing: 0.025em;
 }
 
+
 .middle__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  border: 2px solid rgb(226, 232, 240);
-  margin: 0 -2rem;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 24px;
 }
 
 .middle__card h4 {
   font-size: 20px;
-  color: #242424;
   font-weight: 700;
   letter-spacing: 0.025em;
 }
 
-.middle__card .card__feature {
-  margin-top: 20px;
+
+.middle__card--title {
+  color: #242424;
+}
+
+.middle__card {
   font-weight: 500;
   font-size: 16px;
   color: #718096;
 }
 
-.bottom__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 24px;
-  padding: 0.75rem 4rem;
+.gray {
+  color: rgb(160 174 192);
 }
 
-.bottom__card .btn__top {
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-  border-radius: 9999px;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  width: 100%;
-  padding: 16px 32px;
-  font-weight: 700;
-  color: #F7FAFC;
-  cursor: pointer;
+.bottom__card {
+  padding: 24px;
+}
+
+.card__info {
+  margin: 24px 0;
+}
+
+.business__btn {
+  border-radius: 30px;
+  padding: 20px 75px;
   border: none;
+  font-size: 14px;
+  background-color: white;
+  font-weight: 600;
+  color: #6415ff;
+  margin-top: 24px;
+}
+
+.btn__top {
+  border-radius: 30px;
+    padding: 20px 75px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    margin-top: 24px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.enterprise__btn {
+  border-radius: 30px;
+    padding: 20px 75px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    margin-top: 24px;
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
