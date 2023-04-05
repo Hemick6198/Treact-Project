@@ -11,9 +11,9 @@ html {
 }
 
 .nav,
-  ul,
-  li,
-  a {
+ul,
+li,
+a {
   text-decoration: none;
   color: rgb(36, 62, 99);
   font-size: 14px;
@@ -22,9 +22,9 @@ html {
 }
 
 .nav,
-  ul,
-  li,
-  a:hover {
+ul,
+li,
+a:hover {
   color: #6415ff;
 }
 
@@ -68,9 +68,7 @@ html {
   background-color: #4d249e;
 }
 
-
 /* NAV */
-
 
 .nav {
   display: flex;
@@ -95,8 +93,8 @@ html {
 }
 
 .nav,
-  ul,
-  li {
+ul,
+li {
   letter-spacing: 0.025em;
   font-weight: 600;
   color: #242424;
@@ -111,9 +109,7 @@ html {
   font-size: 14px;
 }
 
-
 /* MAIN */
-
 
 .main__text {
   width: 40%;
@@ -186,9 +182,7 @@ html {
   font-size: 16px;
 }
 
-
 /* FEATURES */
-
 
 .features {
   position: relative;
@@ -253,7 +247,9 @@ html {
   margin-top: 16px;
 }
 
-.service__info p, .quality-work p, .steps__info p {
+.service__info p,
+.quality-work p,
+.steps__info p {
   color: #7c8ba1;
   font-size: 16px;
   text-align: start;
@@ -261,103 +257,99 @@ html {
   padding-bottom: 24px;
 }
 
-
 /* QUALITY WORK SECTION */
 
-
 .quality-work {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .quality-work__img {
-    width: 50%;
-   position: relative;
+  width: 50%;
+  position: relative;
 }
 
-.quality-work__img img{
-    max-width: 100%;
-    height: auto;
-    border: 1px solid rgb(226,232,240);
-    border-radius: 0.25rem;
+.quality-work__img img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 0.25rem;
 }
 
 .quality-work__info {
-    width: 50%;
+  width: 50%;
 }
 
 .quality-work__info h1 {
-    text-align: start;
-    padding-top: 48px;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: wider;
-    letter-spacing: 0.025em;
+  text-align: start;
+  padding-top: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: wider;
+  letter-spacing: 0.025em;
 }
 
 .quality-work__info h2 {
-    text-align: start;
-    padding-top: 24px;
-    font-size: 50px;
-    font-weight: 900;
-    letter-spacing: 0.025em;
-    color: rgb(36 62 99);
+  text-align: start;
+  padding-top: 24px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: rgb(36 62 99);
 }
 
 .quality-work__info p {
-    padding-top: 24px;
-    padding-bottom: 40px;
-    text-align: start;
-    letter-spacing: 0.025em;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(124 139 161);
-    line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  text-align: start;
+  letter-spacing: 0.025em;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(124 139 161);
+  line-height: 1.5;
 }
-
 
 /* STEPS SECTION */
 
-
 .steps {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .steps__img {
-    width: 50%;
-    position: relative;
-    padding-top: 60px;
+  width: 50%;
+  position: relative;
+  padding-top: 60px;
 }
 
 .steps__img img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .steps__info {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 60px;
 }
 
 .steps__info h1 {
-    text-align: start;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: wider;
-    letter-spacing: 0.025em;
+  text-align: start;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: wider;
+  letter-spacing: 0.025em;
 }
 
 .steps__info h2 {
-    text-align: start;
-    padding-top: 24px;
-    padding-bottom: 40px;
-    font-size: 50px;
-    font-weight: 900;
-    letter-spacing: 0.025em;
-    color: rgb(36 62 99);
+  text-align: start;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: rgb(36 62 99);
 }
 
 .steps__info h3 {
@@ -372,8 +364,8 @@ html {
 }
 
 .steps__info li {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .steps__info p {
@@ -382,18 +374,16 @@ html {
 }
 
 .steps__info--description {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .steps__info--number {
-    font-size: 36px;
-    line-height: 1;
-    color: #cbd5e0;
+  font-size: 36px;
+  line-height: 1;
+  color: #cbd5e0;
 }
 
-
 /* VALUES  */
-
 
 .values {
   display: flex;
@@ -414,7 +404,7 @@ html {
   max-width: 100%;
 }
 
-.values__description h2{
+.values__description h2 {
   margin-top: 16px;
   color: #243e63;
   font-size: 48px;
@@ -426,33 +416,33 @@ html {
   letter-spacing: 0.025em;
 }
 
-.value__title{
+.value__title {
   display: flex;
   align-items: center;
 }
 
-.value{
+.value {
   margin: 32px 32px 0 0;
 }
 
-.value__title svg{
+.value__title svg {
   color: rgb(39, 103, 73);
   height: 1.25rem;
-   width: 1.25rem;
+  width: 1.25rem;
 }
 
-.values h3{
+.values h3 {
   margin-left: 12px;
   font-size: 20px;
   color: #243e63;
 }
 
-.values__list{
+.values__list {
   display: flex;
 }
 
 .values__description-p {
-  color: #7C8BA1;
+  color: #7c8ba1;
   margin-top: 20px;
   line-height: 1.5;
   font-weight: 500;
@@ -463,7 +453,7 @@ html {
 .values__button--p {
   text-align: start;
   margin-top: 16px;
-  color: #7C8BA1;
+  color: #7c8ba1;
   font-size: 16px;
   letter-spacing: 0.025em;
   line-height: 1.5;
@@ -483,18 +473,18 @@ svg {
 }
 
 .value__button--img {
-    background-color: #9AE6B4;
-    border-radius: 9999px;
-    padding: 8px;
+  background-color: #9ae6b4;
+  border-radius: 9999px;
+  padding: 8px;
 }
 
 .value__button--img-two {
-    background-color: #FEB2B2;
-    border-radius: 9999px;
-    padding: 8px;
+  background-color: #feb2b2;
+  border-radius: 9999px;
+  padding: 8px;
 }
 
-.value__button--img-two svg{
+.value__button--img-two svg {
   color: rgb(155, 44, 44);
 }
 
@@ -506,9 +496,7 @@ svg {
   padding-top: 32px;
 }
 
-
 /* PRICING */
-
 
 .pricing__description {
   text-align: center;
@@ -519,7 +507,7 @@ svg {
   letter-spacing: 0.025em;
 }
 
-.pricing__description h2{
+.pricing__description h2 {
   margin-top: 16px;
   color: #243e63;
   font-size: 48px;
@@ -527,7 +515,7 @@ svg {
 }
 
 .pricing__description p {
-  color: #7C8BA1;
+  color: #7c8ba1;
   margin-top: 20px;
   line-height: 1.5;
   font-weight: 500;
@@ -556,7 +544,11 @@ svg {
 }
 
 .pricing__plan:nth-child(2) {
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
 
 .personal__highlight {
@@ -567,7 +559,11 @@ svg {
   height: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
 .enterprise__highlight {
@@ -578,7 +574,11 @@ svg {
   height: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
 .top__card {
@@ -602,7 +602,6 @@ svg {
   letter-spacing: 0.025em;
 }
 
-
 .middle__card {
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
@@ -614,7 +613,6 @@ svg {
   font-weight: 700;
   letter-spacing: 0.025em;
 }
-
 
 .middle__card--title {
   color: #242424;
@@ -651,22 +649,165 @@ svg {
 
 .btn__top {
   border-radius: 30px;
-    padding: 20px 75px;
-    border: none;
-    font-size: 14px;
-    color: white;
-    font-weight: 600;
-    margin-top: 24px;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  padding: 20px 75px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  margin-top: 24px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
 .enterprise__btn {
   border-radius: 30px;
-    padding: 20px 75px;
-    border: none;
-    font-size: 14px;
-    color: white;
-    font-weight: 600;
-    margin-top: 24px;
-    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  padding: 20px 75px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  margin-top: 24px;
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial__img {
+  width: 20%;
+  scale: 0.5;
+  margin-right: 48px;
+}
+
+.testimonial__info {
+  width: 75%;
+}
+
+.star {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: currentcolor;
+  color: rgba(246, 173, 85);
+  margin-top: 40px;
+}
+
+.star__description {
+  margin-top: -24px;
+}
+
+.testimonial__description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #7c8ba1;
+  text-align: left;
+  max-width: 576px;
+  margin: 24px 0px 36px 0px;
+}
+
+.testimonials h1 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.testimonials h2 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #243363;
+  margin-top: 24px;
+}
+
+.testimonial__title {
+  color: #243363;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+
+.testimonial__para {
+  font-size: 16px;
+  margin: 16px 0px 40px 0px;
+  color: #4a5568;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+.testimonial__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__person {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__person--img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.person--img {
+  width: 100%;
+}
+
+.testimonial__person--info {
+  margin-left: 24px;
+}
+
+.testimonial__person--info h2 {
+  color: #243e63;
+  font-size: 20px;
+}
+
+.testimonial__person--info p {
+  color: #7c8ba1;
+  font-size: 16px;
+}
+
+.testimonial__arrows {
+  display: flex;
+}
+
+.testimonial__arrow {
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 14px 15px 12px 15px;
+  border: none;
+  margin: 8px 12px;
+  transition: all ease 0.3s;
+  background-color: rgb(237 242 247);
+}
+
+.testimonial__arrow svg {
+  height: 16px;
+  width: 16px;
+  stroke-width: 3;
+  color: #6415ff;
+}
+
+.vertical__line {
+  border-left: 1px solid rgb(226, 232, 240);
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
