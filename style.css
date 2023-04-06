@@ -18,11 +18,15 @@ a {
   font-size: 14px;
   transition: ease all 0.3s;
   list-style: none;
+  color: #242424;
 }
 
+..nav__link--styling {
+  color: #242424;
+}
 
 .nav__link--styling:hover {
-  color: #6415ff;
+  color: #242424;
   transform: translate(1px, 1px);
   text-decoration: underline 2px;
   text-underline-offset: 6px;
@@ -34,10 +38,6 @@ a {
   text-decoration: underline 2px;
   text-underline-offset: 6px;
   transition: ease all 0.3s;
-}
-
-.btn {
-  text-decoration: none;
 }
 
 .container {
@@ -79,10 +79,10 @@ button {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn:hover {
-  color: #fff;
   background-color: #4d249e;
   transform: translate(1px, 1px);
 }
@@ -1039,6 +1039,10 @@ footer {
   border-radius: 9999px;
   margin: 8px;
   padding: 8px;
+}
+
+.socials:hover {
+  background-color: #cbd5e0;
 }
 
 /* @media (768px) {
