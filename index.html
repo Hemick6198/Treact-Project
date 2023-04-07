@@ -18,7 +18,7 @@
 
 <!-- NAVIGATION -->
 
-    <section id="landing">
+    <section id="nav">
       <nav>
         <div class="row">
           <div class="nav">
@@ -41,9 +41,45 @@
                 <a class="btn" href="#">Sign Up</a>
               </li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light__NavToggle-sc-lj69nl-9 QIlpQ closed">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-sc-lj69nl-14 brSrPp">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="" class="menu__link menu__purple" onclick="closeMenu()">About</a>
+                </li>
+                <li class="menu__list">
+                  <a href="" class="menu__link menu__purple" onclick="closeMenu()">Blog</a>
+                </li>
+                <li class="menu__list">
+                  <a href="" class="menu__link menu__purple" onclick="closeMenu()">Pricing</a>
+                </li>
+                <li class="menu__list">
+                  <a href="" class="menu__link menu__purple" onclick="closeMenu()">Contact Us</a>
+                </li>
+                <li class="menu__list">
+                  <a href="" class="menu__link menu__purple" onclick="closeMenu()">Login</a>
+                </li>
+                <li class="menu__list">
+                  <button class="btn__purple--menu">Sign Up</button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
+    <div class="landing">
       <div class="row">
         <div class="column">
           <div class="main__text">
@@ -56,17 +92,17 @@
             </p>
             <div class="input__area">
               <input
-                class="email__text--area"
-                type="text"
-                placeholder="Your E-mail Address"
+              class="email__text--area"
+              type="text"
+              placeholder="Your E-mail Address"
               />
               <button class="email__btn btn">Get Started</button>
             </div>
             <h2>OUR TRUSTED CUSTOMERS</h2>
             <img
-              class="customers__logo"
-              src="./Assets/customerslogo.png"
-              alt=""
+            class="customers__logo"
+            src="./Assets/customerslogo.png"
+            alt=""
             />
           </div>
           <figure class="main__image--right">
@@ -74,6 +110,7 @@
           </figure>
         </div>
       </div>
+    </div>
     </section>
 
 <!-- FEATURES/SERVICES -->
@@ -83,11 +120,10 @@
         <div class="row">
           <div class="features">
             <h1 class="purple">FEATURES</h1>
-            <h2>We have Amazing <span class="purple">Service</span></h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              <br />
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <h2>We have Amazing <span class="purple">Service.</span></h2>
+            <p class="gray__description--center">
+              Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do
+              eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.
             </p>
             <div class="services">
               <div class="service">
@@ -204,13 +240,13 @@
                 Designed & Developed by
                 <span class="purple">Professionals.</span>
               </h2>
-              <p>
+              <p class="gray__description--start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                <br />
+                
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                <br />
+                
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                <br />
+                
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <button class="btn">Learn More</button>
@@ -290,7 +326,7 @@
               <h2>
                 We Always Abide by Our <span class="purple">Principles.</span>
               </h2>
-              <p class="values__description-p">
+              <p class="gray__description--start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -390,9 +426,8 @@
           <div class="pricing__description">
             <h1><span class="purple">PRICING</span></h1>
             <h2>Reasonable & Flexible <span class="purple">Plans.</span></h2>
-            <p>
+            <p class="gray__description--center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              <br />
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -474,7 +509,7 @@
             <div class="testimonial__info">
               <h1 class="purple">TESTIMONIALS</h1>
               <h2>Our Clients <span class="purple"> Love Us.</span></h2>
-              <p class="testimonial__description gray">
+              <p class="gray__description--start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua enim
                 ad minim veniam.
