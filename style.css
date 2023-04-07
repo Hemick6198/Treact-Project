@@ -316,6 +316,16 @@ MAIN
   font-weight: 500;
 }
 
+.blob1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.05;
+  transform: translateX(-125px);
+  height: 256px;
+  width: 256px;
+}
+
 /* 
 
 FEATURES 
@@ -387,6 +397,16 @@ FEATURES
   line-height: 2;
 }
 
+.blob2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+  width: 256px;
+  height: 600px;
+  transform: translate(125px, 1000px)
+}
+
 /* 
 
 QUALITY WORK SECTION 
@@ -430,6 +450,18 @@ QUALITY WORK SECTION
   font-weight: 900;
   letter-spacing: 0.025em;
   color: rgb(36 62 99);
+}
+
+.grid {
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  bottom: 0px;
+  width: 80px;
+  height: 80px;
+  color: #6415ff;
+  fill: currentcolor;
+  transform: matrix(1, 0, 0, 1, 40, 40);
 }
 
 /* 
@@ -510,6 +542,17 @@ STEPS SECTION
   font-size: 36px;
   line-height: 1;
   color: #cbd5e0;
+}
+
+.grid2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  bottom: -40px;
+  z-index: -1;
+  color: #6415ff;
+  opacity: 0.2;
+  fill: currentColor;
 }
 
 /* 
@@ -816,6 +859,18 @@ svg {
   box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.15);
 }
 
+.blob3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 256px;
+  width: 256px;
+  transform: translateX(-100px);
+  opacity: 0.25;
+  overflow: hidden;
+  z-index: -2
+}
+
 /* 
 
 TESTIMONIALS
@@ -1032,6 +1087,28 @@ CONTACT
   display: flex;
   padding: 12px 0;
   z-index: 1;
+}
+
+.blob4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 350px;
+  width: 350px;
+  color: rgb(80, 17, 204);
+  opacity: 0.5;
+  transform: matrix(1, 0, 0, 1, -100, 150);
+}
+
+.blob5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 350px;
+  width: 350px;
+  color: rgb(80, 17, 204);
+  opacity: 0.5;
+  transform: matrix(1, 0, 0, 1, 150, -275);
 }
 
 /* 
