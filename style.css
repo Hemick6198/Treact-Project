@@ -1238,16 +1238,12 @@ footer {
   }
   .service {
     width: calc(100% / 2);
-    
   }
   .quality-work__info p {
     width: 90%;
   }
   .testimonial__para {
     font-size: 14px;
-  }
-  .pricing__plan {
-    width: 270px;
   }
   .contact__us--row {
     display: flex;
@@ -1278,9 +1274,9 @@ footer {
   .values__list {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .values__button--p {
-    width: 90%;
     font-size: 16px;
   }
 }
@@ -1369,7 +1365,8 @@ footer {
   }
   .values__description {
     width: 80%;
-    padding: 48px;
+    padding: 48px 0;
+    
   }
   .values__img {
     width: 75%;
