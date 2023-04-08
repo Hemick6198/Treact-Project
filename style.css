@@ -19,6 +19,13 @@ a {
   transition: ease all 0.3s;
   list-style: none;
   color: #242424;
+  letter-spacing: 0.025em;
+}
+
+nav,
+ul,
+li {
+  font-weight: 600;
 }
 
 .nav__link--styling {
@@ -91,11 +98,13 @@ button {
   width: 100%;
 }
 
+
 /* 
 
 NAV 
 
 */
+
 
 .nav {
   display: flex;
@@ -117,14 +126,6 @@ NAV
   font-weight: 900;
   font-size: 24px;
   color: rgb(36, 62, 99);
-}
-
-.nav,
-ul,
-li {
-  letter-spacing: 0.025em;
-  font-weight: 600;
-  color: #242424;
 }
 
 .nav__links {
@@ -233,11 +234,13 @@ li {
   opacity: 1;
 }
 
+
 /* 
 
 MAIN 
 
 */
+
 
 .main__text {
   width: 40%;
@@ -326,11 +329,13 @@ MAIN
   width: 256px;
 }
 
+
 /* 
 
 FEATURES 
 
 */
+
 
 .features {
   position: relative;
@@ -407,11 +412,13 @@ FEATURES
   transform: translate(125px, 1000px)
 }
 
+
 /* 
 
 QUALITY WORK SECTION 
 
 */
+
 
 .quality-work {
   display: flex;
@@ -464,11 +471,13 @@ QUALITY WORK SECTION
   transform: matrix(1, 0, 0, 1, 40, 40);
 }
 
+
 /* 
 
 STEPS SECTION 
 
 */
+
 
 .steps {
   display: flex;
@@ -555,11 +564,13 @@ STEPS SECTION
   fill: currentColor;
 }
 
+
 /* 
 
 VALUES  
 
 */
+
 
 .values {
   display: flex;
@@ -633,7 +644,6 @@ VALUES
   font-size: 16px;
   letter-spacing: 0.025em;
   line-height: 1.5;
-
 }
 
 svg {
@@ -673,7 +683,9 @@ svg {
   padding-top: 32px;
 }
 
+
 /* PRICING */
+
 
 .pricing__description {
   display: flex;
@@ -871,11 +883,13 @@ svg {
   z-index: -2
 }
 
+
 /* 
 
 TESTIMONIALS
 
 */
+
 
 .testimonials {
   display: flex;
@@ -1021,11 +1035,13 @@ TESTIMONIALS
   margin-bottom: 16px;
 }
 
+
 /* 
 
 CONTACT 
 
 */
+
 
 .contact__us {
   background-color: #6415ff;
@@ -1111,11 +1127,13 @@ CONTACT
   transform: matrix(1, 0, 0, 1, 150, -275);
 }
 
+
 /* 
 
 FOOTER
 
 */
+
 
 footer {
   width: 100%;
