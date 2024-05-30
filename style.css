@@ -66,7 +66,7 @@ section {
 }
 
 button {
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   cursor: pointer;
 }
 
@@ -98,13 +98,11 @@ button {
   width: 100%;
 }
 
-
 /* 
 
 NAV 
 
 */
-
 
 .nav {
   display: flex;
@@ -115,7 +113,6 @@ NAV
 }
 
 .logo {
-  width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -232,13 +229,11 @@ NAV
   opacity: 1;
 }
 
-
 /* 
 
 MAIN 
 
 */
-
 
 .main__text {
   width: 40%;
@@ -293,7 +288,7 @@ MAIN
   color: rgba(45, 68, 144, 0.6);
 }
 
-.email__btn{
+.email__btn {
   position: absolute;
   right: 0;
   margin: 5px 8px 8px 0;
@@ -327,13 +322,11 @@ MAIN
   width: 256px;
 }
 
-
 /* 
 
 FEATURES 
 
 */
-
 
 .features {
   position: relative;
@@ -407,16 +400,14 @@ FEATURES
   opacity: 0.25;
   width: 256px;
   height: 600px;
-  transform: translate(125px, 1000px)
+  transform: translate(125px, 1000px);
 }
-
 
 /* 
 
 QUALITY WORK SECTION 
 
 */
-
 
 .quality-work {
   display: flex;
@@ -469,13 +460,11 @@ QUALITY WORK SECTION
   transform: matrix(1, 0, 0, 1, 40, 40);
 }
 
-
 /* 
 
 STEPS SECTION 
 
 */
-
 
 .steps {
   display: flex;
@@ -562,13 +551,11 @@ STEPS SECTION
   fill: currentColor;
 }
 
-
 /* 
 
 VALUES  
 
 */
-
 
 .values {
   display: flex;
@@ -681,9 +668,7 @@ svg {
   padding-top: 32px;
 }
 
-
 /* PRICING */
-
 
 .pricing__description {
   display: flex;
@@ -863,7 +848,7 @@ svg {
 }
 
 .personal__btn:hover,
-.business__btn:hover, 
+.business__btn:hover,
 .enterprise__btn:hover {
   transform: translate(1px, 1px);
   box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.15);
@@ -878,16 +863,14 @@ svg {
   transform: translateX(-100px);
   opacity: 0.25;
   overflow: hidden;
-  z-index: -2
+  z-index: -2;
 }
-
 
 /* 
 
 TESTIMONIALS
 
 */
-
 
 .testimonials {
   display: flex;
@@ -1024,7 +1007,7 @@ TESTIMONIALS
 
 .testimonial__arrow:hover {
   color: rgb(80 17 204);
-  background-color: rgb(226 232 240)
+  background-color: rgb(226 232 240);
 }
 
 .vertical__line {
@@ -1033,13 +1016,11 @@ TESTIMONIALS
   margin-bottom: 16px;
 }
 
-
 /* 
 
 CONTACT 
 
 */
-
 
 .contact__us {
   background-color: #6415ff;
@@ -1065,7 +1046,7 @@ CONTACT
   font-weight: 600;
   border: none;
   box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.25);
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .started:hover {
@@ -1081,7 +1062,7 @@ CONTACT
   font-size: 16px;
   font-weight: 600;
   border: 1px solid rgb(160 174 192);
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
 .contact:hover {
@@ -1125,13 +1106,11 @@ CONTACT
   transform: matrix(1, 0, 0, 1, 150, -275);
 }
 
-
 /* 
 
 FOOTER
 
 */
-
 
 footer {
   width: 100%;
@@ -1233,8 +1212,7 @@ footer {
 
 /* SMALL DESKTOP */
 
-
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .btn__menu {
     display: block;
   }
@@ -1245,16 +1223,16 @@ footer {
     width: 80%;
     margin: 0 auto;
   }
-  .gray__description--center{
+  .gray__description--center {
     font-size: 16px;
     line-height: 26px;
   }
-  .gray__description--start{
+  .gray__description--start {
     font-size: 16px;
     line-height: 26px;
   }
   .values__button--p {
-    font-size: 14px
+    font-size: 14px;
   }
   .service {
     width: calc(100% / 2);
@@ -1301,11 +1279,9 @@ footer {
   }
 }
 
-
 /* TABLET */
 
-
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .input__area {
     display: flex;
     flex-direction: column;
@@ -1386,7 +1362,6 @@ footer {
   .values__description {
     width: 80%;
     padding: 48px 0;
-    
   }
   .values__img {
     width: 75%;
@@ -1450,11 +1425,9 @@ footer {
   }
 }
 
-
 /* SMALL PHONE */
 
-
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .email__btn {
     position: static;
     width: 100%;
@@ -1462,7 +1435,7 @@ footer {
     padding: 20px;
     display: block;
   }
-  .gray__description--center{
+  .gray__description--center {
     padding: 24px;
   }
   .contact__us--row {
